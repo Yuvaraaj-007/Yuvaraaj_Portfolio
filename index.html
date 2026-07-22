@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yuvaraaja Ganesh V — Robotics &amp; Automation</title>
 <meta name="description" content="Yuvaraaja Ganesh V — Robotics and Automation Engineering undergraduate. Portfolio.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -433,6 +440,20 @@
   }
   .project-card h3{ font-size: 1.25rem; margin-bottom: 12px; }
   .project-card p{ color: var(--text-muted); font-size: 0.92rem; line-height: 1.65; flex:1; margin: 0 0 16px; }
+  .project-links{ display:flex; flex-wrap:wrap; gap:10px; margin-top: 16px; }
+  .btn-sm{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    text-decoration:none;
+    padding: 8px 14px;
+    border-radius: 3px;
+    display:inline-flex; align-items:center; gap:6px;
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease, border-color .15s ease, color .15s ease;
+  }
+  .btn-sm.btn-primary{ background: var(--amber); color:#0a0e14; font-weight:600; border:1px solid var(--amber); }
+  .btn-sm.btn-primary:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(255,122,26,0.28); }
+  .btn-sm.btn-ghost{ background: transparent; color: var(--text); border: 1px solid var(--border-bright); }
+  .btn-sm.btn-ghost:hover{ border-color: var(--cyan); color: var(--cyan); transform: translateY(-2px); }
 
   /* ---------- Skills / control panel ---------- */
   .skills-panel{
@@ -749,6 +770,63 @@
         <div class="tag-row">
           <span class="tag">Ultrasonic Sensors</span>
           <span class="tag">Real-Time Detection</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-num mono">BUILD / 04</span>
+        <h3>PricePilot</h3>
+        <p>AI-powered price comparison and price history analysis website.</p>
+        <div class="tag-row">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
+          <span class="tag">SerpAPI</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <!-- TODO: replace # with your live demo URL -->
+          <a class="btn-sm btn-primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+          <a class="btn-sm btn-ghost" href="https://github.com/Yuvaraaj-007/PricePilot" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-num mono">BUILD / 05</span>
+        <h3>Hill Climb Racing Hand Gesture Control</h3>
+        <p>OpenCV project that controls Hill Climb Racing using real-time hand gesture recognition.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">MediaPipe</span>
+        </div>
+        <div class="project-links">
+          <a class="btn-sm btn-ghost" href="https://github.com/Yuvaraaj-007/Game-controlling-using-hand-gesture/tree/main" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-num mono">BUILD / 06</span>
+        <h3>Exam Hall Monitoring</h3>
+        <p>AI-based exam hall monitoring using a pretrained YOLO model for real-time object/person detection.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">YOLO</span>
+        </div>
+        <div class="project-links">
+          <a class="btn-sm btn-ghost" href="https://github.com/Yuvaraaj-007/Exam-hall-monitoring---YOLO/tree/main" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <span class="project-num mono">BUILD / 07</span>
+        <h3>Air Canvas</h3>
+        <p>Virtual Air Canvas using OpenCV and hand detection for drawing in the air.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">MediaPipe</span>
+        </div>
+        <div class="project-links">
+          <a class="btn-sm btn-ghost" href="https://github.com/Yuvaraaj-007/Air-canvas---Open-CV/tree/main" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
     </div>
